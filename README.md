@@ -13,6 +13,8 @@
   <a href="https://github.com/QuanZ827/Zexus-Releases/releases/latest">
     <img src="https://img.shields.io/github/v/release/QuanZ827/Zexus-Releases?label=Download&style=for-the-badge&color=4285F4" alt="Latest Release">
   </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/license-Proprietary-red" alt="License">
 </p>
 
 ---
@@ -62,6 +64,18 @@ Zexus provides **47 AI-powered tools** across these categories:
 ## Feedback & Bug Reports
 
 Found a bug or have a suggestion? Open an [Issue](https://github.com/QuanZ827/Zexus-Releases/issues).
+
+## Disclaimer
+
+Zexus is an **independent, personal project** developed and maintained by Zhequan Zhang. It is not affiliated with, endorsed by, or sponsored by Autodesk, Anthropic, OpenAI, Google, or any employer past or present.
+
+**Use at your own risk.** Always save your Revit project before using AI-assisted automation. AI outputs are not guaranteed and should be reviewed by qualified professionals before applying to production models.
+
+## License
+
+Zexus is proprietary software. By downloading and using the installer, you agree to the [End User License Agreement (EULA)](LICENSE).
+
+All rights reserved. © 2024-2026 Zhequan Zhang.
 
 ---
 

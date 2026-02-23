@@ -1,0 +1,68 @@
+Copyright (c) 2024-2026 Zhequan Zhang. All rights reserved.
+
+ZEXUS END USER LICENSE AGREEMENT (EULA)
+
+By downloading, installing, or using Zexus ("Software"), you agree to
+the following terms:
+
+1. GRANT OF LICENSE
+   The Author grants you a non-exclusive, non-transferable, revocable
+   license to use the Software for your internal, professional purposes.
+
+2. RESTRICTIONS
+   You may NOT:
+   a. Copy, redistribute, or share the installer or any part of the
+      Software with third parties without written permission;
+   b. Reverse engineer, decompile, disassemble, or attempt to derive
+      the source code of the Software;
+   c. Modify, adapt, or create derivative works based on the Software;
+   d. Use the Software to build a competing product or service;
+   e. Remove or alter any proprietary notices or labels.
+
+3. INTELLECTUAL PROPERTY
+   The Software, including all code, design, documentation, and
+   associated materials, is the exclusive intellectual property of
+   Zhequan Zhang. This license does not transfer any ownership rights.
+
+4. API COSTS
+   The Software connects to third-party LLM APIs (Anthropic, OpenAI,
+   Google) using your own API key. You are solely responsible for all
+   associated usage costs. The Author bears no responsibility for
+   API charges incurred through your use of the Software.
+
+5. DATA & PRIVACY
+   - Zexus sends Revit model metadata (element names, parameter values,
+     categories) to your chosen LLM provider's API for processing.
+   - No data is stored by Zexus on any external server.
+   - Your API key is stored locally and is never transmitted to any
+     server other than your selected provider's API endpoint.
+
+6. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED. THE AUTHOR IS NOT LIABLE FOR ANY DAMAGES ARISING
+   FROM THE USE OF THIS SOFTWARE, INCLUDING BUT NOT LIMITED TO:
+   - Loss of data or model corruption in Revit projects
+   - Incorrect, incomplete, or unexpected AI-generated outputs
+   - Costs incurred from third-party API usage
+   - Any direct, indirect, incidental, or consequential damages
+
+7. INDEMNIFICATION
+   You agree to indemnify and hold harmless the Author from any claims,
+   damages, or expenses arising from your use of the Software.
+
+8. TERMINATION
+   This license is effective until terminated. The Author may terminate
+   this license at any time if you breach any of its terms. Upon
+   termination, you must destroy all copies of the Software.
+
+9. TRADEMARKS
+   "Revit" and "Autodesk" are registered trademarks of Autodesk, Inc.
+   "Claude" is a product of Anthropic, PBC. "GPT" is a product of
+   OpenAI, Inc. "Gemini" is a product of Google LLC. All trademarks
+   are property of their respective owners. Use of these names is for
+   interoperability reference only and does not imply endorsement.
+
+10. GOVERNING LAW
+    This agreement shall be governed by the laws of the United States.
+
+For licensing inquiries, contact the Author.
