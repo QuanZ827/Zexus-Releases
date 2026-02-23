@@ -45,14 +45,15 @@
 
 ## What Can Zexus Do?
 
-Zexus provides **41 AI-powered tools** across these categories:
+Zexus provides **47 AI-powered tools** across these categories:
 
 | Category | Examples |
 |----------|---------|
 | **Query** | Search elements, get parameters, model overview, warnings |
 | **Action** | Select/isolate/color elements, set parameters, activate views |
 | **Schedules & Views** | Create schedules/views, add/format fields, filters, sorting |
-| **Output & Sheets** | List/print sheets, export documents, manage revisions |
+| **Output & Sheets** | List/print sheets, export documents, create sheets, manage revisions |
+| **Documentation** | Tag elements, dimension elements, duplicate views, place views on sheets |
 | **QA/QC** | Check workset assignments, missing parameters, analyze values |
 | **Linked Models** | Search linked elements, compare locations, control visibility |
 | **MEP** | System browser, check connections, show disconnects |
