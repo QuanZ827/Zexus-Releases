@@ -24,12 +24,13 @@
 1. Go to **[Releases](https://github.com/QuanZ827/Zexus-Releases/releases/latest)**
 2. Download `Zexus_Setup_vX.Y.Z.msi`
 3. Run the installer — it will deploy the add-in to your Revit Addins folder
-4. Launch Revit (2023 / 2024 / 2025 / 2026) and find **Zexus** in the ribbon
+4. Launch Revit (2022 / 2023 / 2024 / 2025 / 2026) and find **Zexus** in the ribbon
 
 ## Supported Revit Versions
 
 | Version | Framework |
 |---------|-----------|
+| Revit 2022 | .NET Framework 4.8 |
 | Revit 2023 | .NET Framework 4.8 |
 | Revit 2024 | .NET Framework 4.8 |
 | Revit 2025 | .NET 8.0 |
