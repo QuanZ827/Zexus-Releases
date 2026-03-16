@@ -48,19 +48,18 @@
 
 ## What Can Zexus Do?
 
-Zexus provides **47 AI-powered tools** across these categories:
+Zexus provides **29 tools** (28 predefined + ExecuteCode) with a **Code-First + Smart Tool Hybrid** architecture — smart tools handle high-implicit-rule operations, while ExecuteCode (Roslyn) covers everything else:
 
-| Category | Examples |
-|----------|---------|
-| **Query** | Search elements, get parameters, model overview, warnings |
-| **Action** | Select/isolate/color elements, set parameters, activate views |
-| **Schedules & Views** | Create schedules/views, add/format fields, filters, sorting |
-| **Output & Sheets** | List/print sheets, export documents, create sheets, manage revisions |
-| **Documentation** | Tag elements, dimension elements, duplicate views, place views on sheets |
-| **QA/QC** | Check workset assignments, missing parameters, analyze values |
-| **Linked Models** | Search linked elements, compare locations, control visibility |
-| **MEP** | System browser, check connections, show disconnects |
-| **Universal** | Execute custom C# code via Roslyn (advanced) |
+| Category | Tools |
+|----------|-------|
+| **Query** | Model overview, search elements, get parameters, get selection, get warnings |
+| **Action** | Select/isolate/color elements, set parameters (single & batch), activate views, set category visibility, create view filters |
+| **Schedule & Param** | Create schedules & project parameters, add/format fields, filters, sorting |
+| **Output** | List sheets & views, print sheets, export documents |
+| **Documentation** | Tag elements, dimension elements |
+| **QA/QC** | Check workset assignments, create QC evidence packs |
+| **MEP** | Show disconnects |
+| **Universal** | Execute custom C# code via Roslyn — with PolicyGate write safety enforcement |
 
 ## Feedback & Bug Reports
 
