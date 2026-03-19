@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/zexus_icon.png" width="96" height="96" alt="Zexus Icon">
+  <img src="assets/zexus_icon.png" width="96" height="96" alt="Zexus Pure EC Icon">
 </p>
 
-<h1 align="center">Zexus</h1>
+<h1 align="center">Zexus Pure EC</h1>
 
 <p align="center">
-  <strong>AI Agent for Autodesk Revit</strong><br>
-  Natural language interface for BIM operations — query models, automate tasks, QA/QC workflows, and more.
+  <strong>AI Agent for Autodesk Revit — Pure ExecuteCode Architecture</strong><br>
+  Natural language interface for BIM operations. One universal tool (ExecuteCode) handles all Revit tasks via runtime C# compilation.
 </p>
 
 <p align="center">
@@ -22,9 +22,9 @@
 ## Download & Install
 
 1. Go to **[Releases](https://github.com/QuanZ827/Zexus-Releases/releases/latest)**
-2. Download `Zexus_Setup_vX.Y.Z.msi`
+2. Download `ZexusPureEC_Setup_vX.Y.Z.msi`
 3. Run the installer — it will deploy the add-in to your Revit Addins folder
-4. Launch Revit (2022 / 2023 / 2024 / 2025 / 2026) and find **Zexus** in the ribbon
+4. Launch Revit (2022 / 2023 / 2024 / 2025 / 2026) and find **Zexus Pure EC** in the ribbon
 
 ## Supported Revit Versions
 
@@ -38,7 +38,7 @@
 
 ## Setup
 
-1. Click the Zexus button in the Revit ribbon to open the chat window
+1. Click the Zexus Pure EC button in the Revit ribbon to open the chat window
 2. Open **Settings** (gear icon) to configure your AI provider:
    - **Anthropic Claude** (recommended)
    - **OpenAI GPT**
@@ -46,20 +46,19 @@
 3. Enter your API key and select a model
 4. Start chatting — e.g., *"List all sheets in this project"*
 
-## What Can Zexus Do?
+## What Can Zexus Pure EC Do?
 
-Zexus provides **29 tools** (28 predefined + ExecuteCode) with a **Code-First + Smart Tool Hybrid** architecture — smart tools handle high-implicit-rule operations, while ExecuteCode (Roslyn) covers everything else:
+Zexus Pure EC uses a **Pure ExecuteCode architecture** — a single universal tool that compiles and executes C# code at runtime via Roslyn. The LLM writes the code, the system compiles and runs it inside Revit.
 
-| Category | Tools |
-|----------|-------|
-| **Query** | Model overview, search elements, get parameters, get selection, get warnings |
-| **Action** | Select/isolate/color elements, set parameters (single & batch), activate views, set category visibility, create view filters |
-| **Schedule & Param** | Create schedules & project parameters, add/format fields, filters, sorting |
-| **Output** | List sheets & views, print sheets, export documents |
-| **Documentation** | Tag elements, dimension elements |
-| **QA/QC** | Check workset assignments, create QC evidence packs |
-| **MEP** | Show disconnects |
-| **Universal** | Execute custom C# code via Roslyn — with PolicyGate write safety enforcement |
+This means it can do **anything the Revit API can do**:
+
+- Query model data (elements, parameters, views, sheets, schedules)
+- Create and modify elements (walls, sheets, views, schedules, filters)
+- Set and batch-modify parameters
+- Apply graphic overrides (colors, visibility, view filters)
+- Generate documentation (tag elements, create schedules)
+- Export and print
+- Custom automation workflows
 
 ## Feedback & Bug Reports
 
@@ -67,13 +66,13 @@ Found a bug or have a suggestion? Open an [Issue](https://github.com/QuanZ827/Ze
 
 ## Disclaimer
 
-Zexus is an **independent, personal project** developed and maintained by Zhequan Zhang. It is not affiliated with, endorsed by, or sponsored by Autodesk, Anthropic, OpenAI, Google, or any employer past or present.
+Zexus Pure EC is an **independent, personal project** developed and maintained by Zhequan Zhang. It is not affiliated with, endorsed by, or sponsored by Autodesk, Anthropic, OpenAI, Google, or any employer past or present.
 
 **Use at your own risk.** Always save your Revit project before using AI-assisted automation. AI outputs are not guaranteed and should be reviewed by qualified professionals before applying to production models.
 
 ## License
 
-Zexus is proprietary software. By downloading and using the installer, you agree to the [End User License Agreement (EULA)](LICENSE).
+Zexus Pure EC is proprietary software. By downloading and using the installer, you agree to the [End User License Agreement (EULA)](LICENSE).
 
 All rights reserved. © 2024-2026 Zhequan Zhang.
 
