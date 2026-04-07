@@ -1,83 +1,49 @@
-<p align="center">
-  <img src="assets/zexus_icon.png" width="96" height="96" alt="Zexus Pure EC Icon">
-</p>
+# Zexus — AI Agent Family for Autodesk Revit
 
-<h1 align="center">Zexus Pure EC</h1>
+Three products, one mission: bring AI-powered automation to Revit.
 
-<p align="center">
-  <strong>AI Agent for Autodesk Revit — Pure ExecuteCode Architecture</strong><br>
-  Natural language interface for BIM operations. One universal tool (ExecuteCode) handles all Revit tasks via runtime C# compilation.
-</p>
-
-<p align="center">
-  <a href="https://github.com/QuanZ827/Zexus-Releases/releases/latest">
-    <img src="https://img.shields.io/github/v/release/QuanZ827/Zexus-Releases?label=Download&style=for-the-badge&color=4285F4" alt="Latest Release">
-  </a>
-  &nbsp;
-  <img src="https://img.shields.io/badge/license-Proprietary-red" alt="License">
-</p>
+| Product | Description | Latest | Download |
+|---------|-------------|--------|----------|
+| **Zexus** | Full AI agent — 29 tools + ExecuteCode | v0.4.5.1 | [Download](../../releases/tag/zexus-v0.4.5.1) |
+| **Zexus Pure EC** | Lightweight — single ExecuteCode tool | v0.1.3 | [Download](../../releases/tag/pure-ec-v0.1.3) |
+| **ZexusQAQC** | BIM QAQC checker with Knowledge Base | v0.1.7.1 | [Download](../../releases/tag/qaqc-v0.1.7.1) |
 
 ---
 
-## Download & Install
+## Zexus (Full Version)
+Full-featured AI agent with 29 registered tools covering element queries,
+parameter editing, view creation, documentation, and more. Plus ExecuteCode
+for unlimited Revit API access via runtime C# compilation.
 
-1. Go to **[Releases](https://github.com/QuanZ827/Zexus-Releases/releases/latest)**
-2. Download `ZexusPureEC_Setup_vX.Y.Z.msi`
-3. Run the installer — it will deploy the add-in to your Revit Addins folder
-4. Launch Revit (2022 / 2023 / 2024 / 2025 / 2026) and find **Zexus Pure EC** in the ribbon
+**Latest:** [v0.4.5.1](../../releases/tag/zexus-v0.4.5.1)
+
+## Zexus Pure EC
+Lightweight architecture with a single universal tool (ExecuteCode).
+The LLM writes C# code, Roslyn compiles it, and it runs inside Revit.
+Anything the Revit API can do, Pure EC can do.
+
+**Latest:** [v0.1.3](../../releases/tag/pure-ec-v0.1.3)
+
+## ZexusQAQC (Meta Review)
+AI-powered BIM QAQC checker driven by a structured Knowledge Base.
+12 JSON files define all rules — swap the KB to check any BIM standard.
+Provider-agnostic: works identically with Claude, Gemini, or GPT.
+
+**Latest:** [v0.1.7.1](../../releases/tag/qaqc-v0.1.7.1)
+
+---
+
+## Setup (All Products)
+1. Download the MSI from the release page
+2. Run the installer
+3. Open Revit → find the product in the ribbon
+4. Configure your LLM API key (Anthropic / Google / OpenAI)
 
 ## Supported Revit Versions
-
 | Version | Framework |
 |---------|-----------|
-| Revit 2022 | .NET Framework 4.8 |
-| Revit 2023 | .NET Framework 4.8 |
-| Revit 2024 | .NET Framework 4.8 |
-| Revit 2025 | .NET 8.0 |
-| Revit 2026 | .NET 8.0 |
-
-## Setup
-
-1. Click the Zexus Pure EC button in the Revit ribbon to open the chat window
-2. Open **Settings** (gear icon) to configure your AI provider:
-   - **Anthropic Claude** (recommended)
-   - **OpenAI GPT**
-   - **Google Gemini**
-3. Enter your API key and select a model
-4. Start chatting — e.g., *"List all sheets in this project"*
-
-## What Can Zexus Pure EC Do?
-
-Zexus Pure EC uses a **Pure ExecuteCode architecture** — a single universal tool that compiles and executes C# code at runtime via Roslyn. The LLM writes the code, the system compiles and runs it inside Revit.
-
-This means it can do **anything the Revit API can do**:
-
-- Query model data (elements, parameters, views, sheets, schedules)
-- Create and modify elements (walls, sheets, views, schedules, filters)
-- Set and batch-modify parameters
-- Apply graphic overrides (colors, visibility, view filters)
-- Generate documentation (tag elements, create schedules)
-- Export and print
-- Custom automation workflows
-
-## Feedback & Bug Reports
-
-Found a bug or have a suggestion? Open an [Issue](https://github.com/QuanZ827/Zexus-Releases/issues).
-
-## Disclaimer
-
-Zexus Pure EC is an **independent, personal project** developed and maintained by Zhequan Zhang. It is not affiliated with, endorsed by, or sponsored by Autodesk, Anthropic, OpenAI, Google, or any employer past or present.
-
-**Use at your own risk.** Always save your Revit project before using AI-assisted automation. AI outputs are not guaranteed and should be reviewed by qualified professionals before applying to production models.
+| Revit 2022-2024 | .NET Framework 4.8 |
+| Revit 2025-2026 | .NET 8.0 |
 
 ## License
-
-Zexus Pure EC is proprietary software. By downloading and using the installer, you agree to the [End User License Agreement (EULA)](LICENSE).
-
-All rights reserved. © 2024-2026 Zhequan Zhang.
-
----
-
-<p align="center">
-  Built by <a href="https://github.com/QuanZ827">Zhequan Zhang</a>
-</p>
+Proprietary software. All rights reserved. © 2024-2026 Zhequan Zhang.
