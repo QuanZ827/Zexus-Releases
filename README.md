@@ -6,7 +6,7 @@ Three products, one mission: bring AI-powered automation to Revit.
 |---------|-------------|--------|----------|
 | **Zexus** | Full AI agent — 29 tools + ExecuteCode | v0.4.5.1 | [Download](../../releases/tag/zexus-v0.4.5.1) |
 | **Zexus Pure EC** | Lightweight — single ExecuteCode tool | v0.1.3 | [Download](../../releases/tag/pure-ec-v0.1.3) |
-| **ZexusQAQC** | BIM QAQC checker with Knowledge Base | v0.1.7.1 | [Download](../../releases/tag/qaqc-v0.1.7.1) |
+| **ZexusQAQC** | BIM QAQC checker — bring your own Knowledge Base | v0.2.0 | [Download](../../releases/tag/qaqc-v0.2.0) |
 
 ---
 
@@ -24,12 +24,13 @@ Anything the Revit API can do, Pure EC can do.
 
 **Latest:** [v0.1.3](../../releases/tag/pure-ec-v0.1.3)
 
-## ZexusQAQC (Meta Review)
-AI-powered BIM QAQC checker driven by a structured Knowledge Base.
-12 JSON files define all rules — swap the KB to check any BIM standard.
+## ZexusQAQC
+AI-powered BIM QAQC checker driven by a structured Knowledge Base **you author**.
+The plugin engine is domain-agnostic: swap the KB to check any BIM standard.
+Ships with schema templates; **no rules bundled** — adapt it to your own standard.
 Provider-agnostic: works identically with Claude, Gemini, or GPT.
 
-**Latest:** [v0.1.7.1](../../releases/tag/qaqc-v0.1.7.1)
+**Latest:** [v0.2.0](../../releases/tag/qaqc-v0.2.0)
 
 ---
 
