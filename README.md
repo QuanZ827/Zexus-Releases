@@ -5,7 +5,7 @@ Three products, one mission: bring AI-powered automation to Revit.
 | Product | Description | Latest | Download |
 |---------|-------------|--------|----------|
 | **Zexus** | Full AI agent — 29 tools + ExecuteCode | v0.4.5.1 | [Download](../../releases/tag/zexus-v0.4.5.1) |
-| **Zexus Pure EC** | Lightweight — single ExecuteCode tool | v0.1.3.1 | [Download](../../releases/tag/pure-ec-v0.1.3.1) |
+| **Zexus Pure EC** | Lightweight — single ExecuteCode tool | v0.1.3.2 | [Download](../../releases/tag/pure-ec-v0.1.3.2) |
 | **ZexusQAQC** | BIM QAQC checker — bring your own Knowledge Base | v0.2.0 | [Download](../../releases/tag/qaqc-v0.2.0) |
 
 ---
@@ -22,7 +22,7 @@ Lightweight architecture with a single universal tool (ExecuteCode).
 The LLM writes C# code, Roslyn compiles it, and it runs inside Revit.
 Anything the Revit API can do, Pure EC can do.
 
-**Latest:** [v0.1.3](../../releases/tag/pure-ec-v0.1.3.1)
+**Latest:** [v0.1.3](../../releases/tag/pure-ec-v0.1.3.2)
 
 ## ZexusQAQC
 AI-powered BIM QAQC checker driven by a structured Knowledge Base **you author**.
